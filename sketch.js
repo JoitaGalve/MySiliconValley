@@ -43,7 +43,7 @@ function preload(){
   restartI = loadImage("restart.png")
   goI = loadImage("go-1.gif")
   helpI1 = loadImage("ButtonHelp.png")
-  helpI2 = loadImage("help-2.png")
+  helpI2 = loadImage("help.png")
   backI = loadImage("back.png")
   cityS = loadSound("city.mp3")
   ywI = loadImage("yw1.jpg")
@@ -112,10 +112,10 @@ function setup(){
   
   help2 = createSprite(680, 300, 10,10)
   help2.addImage(helpI2)
-  help2.scale = 0.9
+  help2.scale = 1
   help2.visible = false
   
-  back = createSprite(830, 580, 10,10)
+  back = createSprite(820, 580, 10,10)
   back.addImage(backI)
   back.scale = 0.3
   back.visible = false
